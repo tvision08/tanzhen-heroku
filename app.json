@@ -1,0 +1,26 @@
+{
+    "name": "tanzhen",
+    "description": "Deploy tanzhen to heroku",
+    "env": {
+        "IP": {
+            "description": "服务端IP/域名",
+            "value": "127.0.0.1"
+        },
+        "PORT": {
+            "description": "服务端端口",
+            "value": "35601"
+        },
+        "user": {
+            "description": "服务端账号",
+            "value": "haoduck"
+        },
+        "pwd": {
+            "description": "服务端密码",
+            "value": "haoduck"
+        }
+    },
+    "website": "https://github.com/peng4740/randpic",
+    "repository": "https://github.com/peng4740/randpic",
+    "success_url": "/",
+    "stack": "container"
+  }
